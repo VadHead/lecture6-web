@@ -30,3 +30,11 @@ document.getElementById('loadItems').addEventListener('click', () => {
   xhttp.open('GET', '_items.html', true);
   xhttp.send();
 })
+
+document.getElementById('cleanItems').addEventListener('click', () => {
+  let taskListEl = document.getElementById('myList');
+  while (taskListEl.firstChild) {
+    taskListEl.removeChild(taskListEl.firstChild);
+}
+})
+

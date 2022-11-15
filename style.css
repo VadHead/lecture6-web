@@ -8,3 +8,21 @@ h1 {
   padding: 20px;                          /* відступ від границі елементу до його контенту*/
   margin: 20px;                           /* відступ від границі елементу до іншого елементу */
 }
+
+#cat {
+  max-width: 20%;
+  border-style: solid;
+  border-width: 2px;
+  border-color: red;
+  border-radius: 8px;
+}
+
+#personalData {
+  padding-left: 2em;
+}
+
+#name, #gitLink {
+  padding-left: 2em;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color:red;
+}
